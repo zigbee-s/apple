@@ -1,4 +1,4 @@
-from contact_extract.spiders.email_extract import EmailExtractSpider
+from contact_extract.contact_extract.spiders.email_extract import EmailExtractSpider
 from scrapy.crawler import CrawlerRunner
 from twisted.internet import reactor
 import logging

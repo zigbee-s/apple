@@ -93,7 +93,7 @@ class EmailExtractSpider(CrawlSpider):
     def closed(self, reason):
         logging.info("Writing to file")
         pathToFile = os.path.join(os.path.dirname(
-            __file__), "../../" + self.filename + ".txt")
+            __file__), "../../../" + self.filename + ".txt")
         with open(pathToFile, "w") as file:
             for email in list(set(self.yielded_emails)):
                 file.write(email)
