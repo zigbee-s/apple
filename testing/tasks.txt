@@ -1,0 +1,6 @@
+email,isha.sadhguru.org,1
+email,nulenta.com,2
+email,vit.ac.in,3
+email,medium.com,4
+email,github.com/Lochlan,5
+email,github.com/zpao,6
